@@ -1,0 +1,158 @@
+2020-07-19 18:27:10.886512: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "my_app.app" could not be imported: Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\my_app.py", line 1, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+
+
+
+StdOut: 
+
+StdErr: 
+2020-07-19 18:27:10.887512: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "my_app.app" could not be imported: Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\my_app.py", line 1, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+
+2020-07-19 18:27:10.887512: Running on_exit tasks
+2020-07-19 18:27:10.888513: wfastcgi.py 3.0.0 closed
+2020-07-19 18:27:11.169529: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "my_app.app" could not be imported: Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\my_app.py", line 1, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+
+
+
+StdOut: 
+
+StdErr: 
+2020-07-19 18:27:11.170529: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "my_app.app" could not be imported: Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\my_app.py", line 1, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+
+2020-07-19 18:27:11.171529: Running on_exit tasks
+2020-07-19 18:27:11.171529: wfastcgi.py 3.0.0 closed
+2020-07-19 18:27:26.941431: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\my_app.py", line 10, in <module>
+    def index():
+  File "c:\python38\lib\site-packages\flask\app.py", line 1315, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "c:\python38\lib\site-packages\flask\app.py", line 98, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "c:\python38\lib\site-packages\flask\app.py", line 1282, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: index
+
+
+StdOut: 
+
+StdErr: 
+2020-07-19 18:27:26.941431: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\my_app.py", line 10, in <module>
+    def index():
+  File "c:\python38\lib\site-packages\flask\app.py", line 1315, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "c:\python38\lib\site-packages\flask\app.py", line 98, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "c:\python38\lib\site-packages\flask\app.py", line 1282, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: index
+2020-07-19 18:27:26.942431: Running on_exit tasks
+2020-07-19 18:27:26.942431: wfastcgi.py 3.0.0 closed
+2020-07-19 18:27:28.512521: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\my_app.py", line 10, in <module>
+    def index():
+  File "c:\python38\lib\site-packages\flask\app.py", line 1315, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "c:\python38\lib\site-packages\flask\app.py", line 98, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "c:\python38\lib\site-packages\flask\app.py", line 1282, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: index
+
+
+StdOut: 
+
+StdErr: 
+2020-07-19 18:27:28.513521: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python38\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\my_app.py", line 10, in <module>
+    def index():
+  File "c:\python38\lib\site-packages\flask\app.py", line 1315, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "c:\python38\lib\site-packages\flask\app.py", line 98, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "c:\python38\lib\site-packages\flask\app.py", line 1282, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: index
+2020-07-19 18:27:28.513521: Running on_exit tasks
+2020-07-19 18:27:28.514521: wfastcgi.py 3.0.0 closed
+2020-07-19 18:28:11.193962: wfastcgi.py will restart when files in C:\inetpub\wwwroot\Flask_Start\ are changed: .*((\.py)|(\.config))$
+2020-07-19 18:28:11.194962: wfastcgi.py 3.0.0 initialized
